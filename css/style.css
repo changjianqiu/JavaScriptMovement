@@ -1,0 +1,17 @@
+body{background-color: #666;}
+.play{width: 400px;height: 430px;background-color: #999;margin: 50px auto 0px;}
+.big_pic{width: 400px;height: 320px;position: relative;}
+.prev,.next{width: 60px;height: 60px;background: url(../images/btn.gif);position: absolute;top: 130px;z-index: 3000;cursor: pointer;filter:alpha(opacity:0);opacity: 0;}
+.prev{left: 15px;}
+.next{right: 15px;background-position: 0 -60px;}
+.mark_left,.mark_right{width: 200px;height: 320px;position: absolute;top: 0px;z-index: 2000;filter:alpha(opacity:0);opacity: 0;}
+.mark_right{right: 0px;}
+.text,.length{height: 20px;position: absolute;bottom: 4px;color: #fff;z-index: 3000;}
+.text{left: 10px;}
+.length{right: 10px;}
+.big_pic li{position: absolute;top: 0px;left: 0px;z-index: 0;overflow: hidden;}
+
+.small_pic{width: 390px;height: 90px;margin: 10px 5px;overflow: hidden;position: relative;}
+.small_pic_content{position: absolute;top: 0px;left: 0px;}
+.small_pic_content li{float: left;padding: 0 5px;cursor: pointer;filter:alpha(opacity:40);opacity: 0.4;}
+.small_pic_content li img{display: block;width: 120px;height: 90px;}
